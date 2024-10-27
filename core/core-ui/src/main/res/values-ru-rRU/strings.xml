@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright 2022 Afig Aliyev
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="songs">Песни</string>
+    <string name="artists">Исполнители</string>
+    <string name="albums">Альбомы</string>
+    <string name="folders">Папки</string>
+    <plurals name="number_of_songs">
+        <item quantity="one">%d песня</item>
+        <item quantity="few">%d песни</item>
+        <item quantity="many">%d песен</item>
+        <item quantity="other">%d песен</item>
+    </plurals>
+    <string name="no_songs">Нет песен.</string>
+    <string name="no_artists">Нет исполнителей.</string>
+    <string name="no_albums">Нет альбомов.</string>
+    <string name="no_folders">Нет папок.</string>
+    <string name="sort">Сортировка</string>
+    <string name="sort_order">Порядок сортировки</string>
+    <string name="ascending">Возрастание</string>
+    <string name="descending">Убывание</string>
+    <string name="sort_by">Сортировка по</string>
+    <string name="title">Название</string>
+    <string name="artist">Исполнитель</string>
+    <string name="album">Альбом</string>
+    <string name="duration">Продолжительность</string>
+    <string name="date">Дата</string>
+    <string name="close">Закрыть</string>
+</resources>

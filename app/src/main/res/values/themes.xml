@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="NightAdjusted.Theme.Musicmax" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowLightStatusBar" tools:targetApi="23">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="27">true</item>
+    </style>
+
+    <style name="PlatformAdjusted.Theme.Musicmax" parent="NightAdjusted.Theme.Musicmax">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="Theme.Musicmax" parent="PlatformAdjusted.Theme.Musicmax" />
+
+    <style name="NightAdjusted.Theme.Splash" parent="Theme.SplashScreen">
+        <item name="android:windowLightStatusBar" tools:targetApi="23">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="27">true</item>
+    </style>
+
+    <style name="Theme.Musicmax.Splash" parent="NightAdjusted.Theme.Splash">
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash_icon</item>
+        <item name="windowSplashScreenBackground">@color/splash_background</item>
+        <item name="postSplashScreenTheme">@style/Theme.Musicmax</item>
+    </style>
+
+</resources>
